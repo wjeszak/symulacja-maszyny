@@ -18,7 +18,6 @@ int main()
 	{
 		cout << dynabox.faults[i].is_active << endl;
 	}
-
 }
 
 
