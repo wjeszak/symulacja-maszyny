@@ -23,7 +23,7 @@ void Dynabox::SetFault(int id)
 	for(int i = 0; i < NUMBER_FAULTS; i++)
 	{
 		if(faults[i].id == id) faults[i].is_active = true;
-		break;
+		//break;
 	}
 }
 
